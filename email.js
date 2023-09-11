@@ -17,8 +17,8 @@ http.createServer((req,res)=>{
                 const transporter=nodemailer.createTransport({
                     host:'smtp.ethereal.email',
                     port:587,
-                    // secure:false,//it not necesary to give but pass false 
                 auth:{
+                    // pass the ethereal host generated email and password
                     user: 'treva.wolff2@ethereal.email',
                     pass: 'vDFeWrRmnMatCMQT7g'
                 }
